@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kibo/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "kibo"
+  spec.name          = "kibo-rb"
   spec.version       = Kibo::VERSION
   spec.authors       = ["oelizondo"]
   spec.email         = ["oscarmarcelo95@gmail.com"]
