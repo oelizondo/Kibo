@@ -1,5 +1,6 @@
 module Kibo
   class Search
+
     def self.bsearch(arr, element)
       higher = arr.length
       lower = 0
@@ -23,5 +24,6 @@ module Kibo
 
       true
     end
+
   end
 end

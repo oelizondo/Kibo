@@ -30,6 +30,16 @@ Kibo is really easy to use, you just have to:
 Kibo::Search.bsearch(your_array, your_element)
 ```
 
+Kibo also comes with a Native option
+
+```ruby
+require 'kibo_native'
+
+a = (1..1_000_000).to_a
+a.binsearch(563_321)
+```
+
+Kibo Native overrides the Array class to include the method ```binsearch``` so you don't have to make additional objects.
 Kibo will return true if the element exists in your array. Right now, ```.sbearch``` method only works wih integers, other data types will come later!
 
 ## Benchmarks
