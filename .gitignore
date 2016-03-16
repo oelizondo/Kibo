@@ -7,3 +7,6 @@
 /pkg/
 /spec/reports/
 /tmp/
+.DS_Store
+Gemfile.lock
+kibo-rb.0.1.4.gem
