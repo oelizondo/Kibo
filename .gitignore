@@ -10,3 +10,4 @@
 .DS_Store
 Gemfile.lock
 kibo-rb-0.1.*.gem
+.rspec
