@@ -1,4 +1,5 @@
 # Kibo
+![Build](https://travis-ci.org/oelizondo/Kibo.svg?branch=master)
 
 Small API for sorting and finding elements in arrays and other data structures.
 
