@@ -11,7 +11,7 @@ Almost everything is O(logn) or O(nlogn).
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kibo'
+gem 'kibo-rb'
 ```
 
 And then execute:
@@ -20,20 +20,22 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kibo
+    $ gem install kibo-rb
 
 ## Usage
 
 Kibo is really easy to use, you just have to:
 
 ```ruby
+require 'kibo' #not kibo-rb
+
 Kibo::Search.bsearch(your_array, your_element)
 ```
 
 Kibo also comes with a Native option
 
 ```ruby
-require 'kibo_native'
+require 'kibo' #not kibo rb
 
 a = (1..1_000_000).to_a
 a.binsearch(563_321)
