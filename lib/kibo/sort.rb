@@ -1,30 +1,10 @@
-require_relative 'sorts/merge'
-require_relative 'sorts/quick'
-
-module Kibo
-  SORTS = {
-    "merge": Merge,
-    "quick": Quick
-  }
-  class Sort
-    def initialize(arr, type)
-      case type
-      when 'merge'
-        eval ("Merge.new(#{arr})")
-      when 'quick'
-        eval ("Quick.new(#{arr})")
-      end
-    end
+class Array
+  def self.insertion_sort
   end
 
-  class Merge
-    def initialize(arr)
-      @arr = arr
-    end
-
-    def show
-      @arr
-    end
+  def self.merge_sort
   end
 
+  def self.quick_sort
+  end
 end
